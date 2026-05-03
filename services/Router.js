@@ -17,7 +17,7 @@ export const Router = {
         let pageElement = null
 
         switch(url){
-            case '/':pageElement = document.createElement("h1")
+            case '/':pageElement = document.createElement("menu-page")
             break
             case '/order':pageElement = document.createElement("h2")
             break
